@@ -20,20 +20,25 @@
 Clone the repository
 
 ```bash
-https://github.com/krishnaik06/Kidney-Disease-Classification-Deep-Learning-Project
+https://github.com/AshishSMehra/Kidney-Disease-Classification
 ```
 ### STEP 01- Create a conda environment after opening the repository
 
 ```bash
-conda create -n cnncls python=3.8 -y
+python -m venv .venv
 ```
 
 ```bash
-conda activate cnncls
+.venv/Scripts/activate
+```
+
+### STEP 02 - To create artifacts folder 
+```bash
+python main.py
 ```
 
 
-### STEP 02- install the requirements
+### STEP 03- install the requirements
 ```bash
 pip install -r requirements.txt
 ```
